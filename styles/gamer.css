@@ -127,6 +127,7 @@ nav li a {
 
 .extra-image {
     display: flex;
+    justify-content: space-between;
 }
 
 .fa-play-circle {
@@ -198,10 +199,6 @@ nav li a {
     text-align: right;
 }
 
-.we-are-content .buttons {
-    
-}
-
 .we-are-content .voices {
     color: #534c64;
     text-align: right;
@@ -216,3 +213,46 @@ nav li a {
     font-weight: 700;
     line-height: 45px;
 }
+/*we are End*/
+
+/*video game Start*/
+.video-games-content {
+    text-align: center;
+}
+
+.video-games-content h3 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.video-games-content .funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.video-games-content p {
+    color: #534c64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.video-games-cards {
+    display: flex;
+}
+
+.video-games-cards .card {
+    width: 350px;
+    height: 400px;
+    border-radius: 16px;
+    margin: 14px;
+}
+
+.card .card-box {
+    opacity: 1;
+}
+/*video game End*/
+
