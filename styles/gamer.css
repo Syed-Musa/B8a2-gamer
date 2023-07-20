@@ -370,3 +370,129 @@ nav li a {
     font-weight: 600;
     text-align: center;
 }
+/*game button End*/
+
+/*footer Start*/
+.footer-container {
+    width: 100%;
+    height: 450px;
+    background-color: #0B0223;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-container .footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin-left: 540px;
+}
+
+.footer-logo .logo-text {
+    font-size: 45px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-logo .extra-text {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.li-list ul {
+    display: flex;
+    margin-left: 270px;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.li-list li {
+    list-style: none;
+}
+
+.li-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.icon-list {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 500px;
+    gap: 40px;
+}
+
+.icon-list .fa-youtube {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.icon-list .fa-youtube:hover {
+    color: firebrick;
+}
+
+.icon-list .fa-facebook {
+    color: white;
+    font-size: 30px;
+}
+
+.icon-list .fa-facebook:hover{
+    color: #4EC5F7;
+}
+
+.icon-list .fa-instagram {
+    color: white;
+    font-size: 30px;
+}
+
+.icon-list .fa-instagram:hover {
+    color: #F948B2;
+}
+
+.icon-list .fa-twitter {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.icon-list .fa-twitter:hover {
+    color: #4EC5F7;
+}
+
+.icon-list .fa-linkedin {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.icon-list .fa-linkedin:hover {
+    color: #4EC5F7;
+}
+
+.news-list ul {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 320px;
+    gap: 35px;
+}
+
+.news-list li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+}
+
+.footer-container p {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+}
