@@ -97,6 +97,7 @@ nav li a {
 
 /*Banner Start*/
 .banner {
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
     fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
@@ -495,4 +496,130 @@ nav li a {
     font-size: 16px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.60);
+}
+/*footer End*/
+
+
+
+/*media section Start*/
+/*mobile responsive*/
+@media (max-width : 576px){
+    header {
+        padding: 20px;
+    }
+
+    nav > ul {
+        gap: 20px;
+    }
+
+    .nav-container, 
+    nav > ul, 
+    .banner,
+    .we-are-container,
+    .video-games-container,
+    .anytime-container,
+    .game-button-container,
+    .footer-container
+    {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .banner {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .banner-images {
+        margin-top: 30px;
+    }
+
+    .banner-images img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .extra-image img {
+        width: 50%;
+        gap: 20px;
+    }
+
+    .we-are-container {
+        width: 100%;
+        display: inline;
+    }
+
+    .we-are-content {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .we-are-content h3 {
+        text-align: center;
+    }
+
+    .we-are-content .voices {
+        text-align: center;
+        margin-left: 35px;
+    }
+
+    .we-are-content .unless {
+        font-size: 30px;
+    }
+
+    .we-are-container .we-are-images img {
+        width: 100%;
+    }
+
+    .video-games-content h3 {
+        font-size: 30px;
+    }
+
+    .video-games-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .video-games-cards .card {
+        margin: 70px;
+        margin-right: 200px;
+    }
+
+    .video-games-cards .card img {
+        width: 500px;
+        height: 450px;
+    }
+
+    .video-games-cards .card p {
+        position: absolute;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .anytime-container {
+        flex-direction: column-reverse;
+    }
+
+    .anytime-images img {
+        position: relative;
+        left: 75px;
+        width: 60%;
+    }
+
+    .anytime-images .ractac {
+        width: 35%;
+    }
+
+    .game-button-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-container {
+        max-width: 500px;
+    }
+
+    .footer-container .footer-logo {
+        font-size: 20px;
+    }
 }
